@@ -12,4 +12,4 @@ print(decamelize('justATest', '-'));    //just-a-test
 
 ## todo
 
-- [ ] Check for acronyms
+- Check for acronyms
