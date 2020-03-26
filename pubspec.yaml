@@ -1,1 +1,7 @@
 name: decamelize
+version: 0.0.1
+description: >-
+  A Dart package to easily decamelize strings.
+homepage: https://github.com/hectortav/decamelize
+environment:
+  sdk: '>=2.6.0 <3.0.0'
