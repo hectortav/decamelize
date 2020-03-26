@@ -1,3 +1,8 @@
+## 0.1.1
+
+- Added a simple example
+- Updated description
+
 ## 0.1.0
 
 - Better code quality
