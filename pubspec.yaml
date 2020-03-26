@@ -1,5 +1,5 @@
 name: decamelize
-version: 0.0.1
+version: 0.1.0
 description: >-
   A Dart package to easily decamelize strings.
 homepage: https://github.com/hectortav/decamelize

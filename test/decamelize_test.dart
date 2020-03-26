@@ -1,4 +1,4 @@
-import '../lib/decamelize.dart';
+import 'package:decamelize/decamelize.dart';
 
 bool main() {
 	assert(decamelize('easyTest','_') == 'easy_test');

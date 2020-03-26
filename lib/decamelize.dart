@@ -1,10 +1,12 @@
 import 'dart:core';
 
 String decamelize(String input, String del) {
-	if (input == input.toUpperCase())
+	if (input == input.toUpperCase()) {
 		return input.toLowerCase();
-	if (RegExp('([a-z]|[A-Z]|[0-9])').hasMatch(del))
+	}
+	if (RegExp('([a-z]|[A-Z]|[0-9])').hasMatch(del)) {
 		throw('$del is not acceptable');
+	}
 
 	String output = input.splitMapJoin(
 		RegExp('((([a-z])|([0-9]))((A|I)([A-Z]))(([a-z])|([0-9])))'), 
